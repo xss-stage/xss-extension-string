@@ -25,9 +25,9 @@ dependencyManagement {
 }
 
 dependencies {
-    implementation 'com.github.xss-stage:xss-core:1.1'
+    apiElements 'com.github.xss-stage:xss-core:1.1'
 
-    implementation 'com.navercorp.lucy:lucy-xss:1.6.3' // License Apache 2.0
+    apiElements 'com.navercorp.lucy:lucy-xss:1.6.3' // License Apache 2.0
 
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
