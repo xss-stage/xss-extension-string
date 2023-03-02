@@ -7,7 +7,7 @@ xss-core는 자유롭게 XssFilter를 등록하고 확장하여 사용할 수 �
    
 [***Press Star***](https://github.com/xss-stage/xss-core/stargazers)   
    
-이 라이브러리는 xss-core에 string을 처리할 수 있는 XssFilter구현체를 등록시킵니다.   
+이 라이브러리는 xss-core에 string을 처리할 수 있는 XssFilter구현체를 등록시키며, String 객체에 대해서 Xss filtering을 진행할 수 있습니다.
 이 라이브러리를 주입받으면, 다음과 같이 `@Xss`의 value로 `string`을 지정할 수 있습니다.   
 
 ``` Java
